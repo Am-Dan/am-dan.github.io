@@ -1,0 +1,38 @@
+.ame {
+    font-size: 22px;
+    color: #263244;
+    margin: 40px;
+    text-transform: uppercase;
+}
+
+.block-can {
+    text-align: center;
+    padding: 60px;
+    width: 100%;
+    height: 500px;
+    background: url(../img/fon2.png) 100% 0/auto 90% no-repeat;
+}
+.can {
+}
+.can li{
+    display: inline-block;
+    width: 250px;
+    margin: 30px 20px;
+}
+.usl {
+    font-size: 14px;
+    font-weight: 900;
+    margin: 10px;
+    color: #d17e10;
+    
+}
+.usl-p {
+    margin: 20px;
+    color: #3f495a;
+    
+}
+.usl-img {
+    width: 50px;
+    height: auto;
+    margin: 10px;
+}

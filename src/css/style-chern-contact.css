@@ -1,0 +1,46 @@
+.block-contacts {
+    margin: 30px 0;
+    text-align: center;
+    color: #fff;
+    width: 100%;
+    background: url(../img/fon4.png) 50% 100%/100% auto no-repeat;
+}
+.ame-0 {
+    font-size: 22px;
+    padding: 50px;
+    text-transform: uppercase;
+}
+.contacts-p {
+    font-size: 12px;
+    padding: 20px 450px;
+}
+.svyaz li{
+    display: inline-block;
+    width: 160px;
+    margin: 30px 20px;
+}
+.sv-li {
+    margin: 11px;
+}
+.sv-me {
+    font-size: 14;
+    text-transform: uppercase;
+    margin: 0 0 20px 0;
+}
+.funct {
+    margin: 20px 450px;
+}
+.text1 {
+    width: 280px;
+    margin: 20px 10px;
+    padding: 5px;
+}
+.bt-send {
+    background: none;
+    border: 2px solid #fff;
+    border-radius: 3px;
+    margin: 10px 0 120px 0;
+    padding: 10px;
+    color: #fff;
+    font-size: 15px;
+}
