@@ -1,0 +1,79 @@
+.ame {
+    font-size: 22px;
+    color: #263244;
+    margin: 40px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+
+
+.block-case {
+    width: 1100px;
+    margin: 70px 250px;
+    display: block;
+}
+.zagl-case {
+    text-align: center;
+    margin: 20px;
+}
+case-p {
+    font-size: 11px;
+    color: #3f495a;
+    margin: 15px;
+}
+.w-cPh {
+    margin: 15px 100px 15px 0;
+    float: left;
+}
+.c-w0 {
+    float: left;
+    margin: 10px 100px 10px 0;
+}
+.c-w {
+    margin: 10px 70px 0px 0;
+    float: left;
+}
+.client {
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #384354;
+    margin: 8px 0 11px 0;
+    text-transform: uppercase;
+}
+.client-p {
+    font-size: 12px;
+    color: #646b77;
+}
+.web {
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #384354;
+    margin: 8px 0;
+    text-transform: uppercase;
+}
+.web-a {
+    font-size: 12px;
+    color: #646b77;
+}
+.project {
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #384354;
+    margin: 18px 0 11px 0;
+}
+.project-p {
+    font-size: 15px;
+    color: #646b77;
+    margin: 0 0 20px 0;
+}
+.liveSite {
+    clear: left;
+    border-radius: 3px;
+    background: #63b5ae;
+    color: #fff;
+    font-size: 14px;
+    margin: 15px 0 0 0;
+    padding: 15px 42px;
+    text-transform: uppercase;
+}
