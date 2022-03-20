@@ -1,3 +1,14 @@
+body {
+    font-family: Arial, sans-serif;
+}
+.ame {
+    font-size: 22px;
+    color: #263244;
+    margin: 40px;
+    text-transform: uppercase;
+}
+
+
 .block-col {
     text-align: center;
     margin: 150px 440px;

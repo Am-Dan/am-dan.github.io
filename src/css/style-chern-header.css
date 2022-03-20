@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, sans-serif;
+}
+.ame {
+    font-size: 22px;
+    color: #263244;
+    margin: 40px;
+    text-transform: uppercase;
+}
+
+
+.block-header {
+    background-color: #344051;
+    height: 61px;
+    width: auto;
+    color: #ffffff;
+}
+.ab {
+    font-size: 22px;
+    padding: 0 350px;
+    line-height: 60px;
+    float: left;
+    -webkit-animation: ab-anim 5s;
+    -o-animation: ab-anim 5s;
+    animation: ab-anim 5s;
+}
+.menu {
+    padding-left: 40px;
+    float: left;
+}
+.menu li {
+    text-transform: uppercase;
+    font-size: 18px;
+    padding: 0 12px;
+    float: left;
+    line-height: 60px;
+    -webkit-animation: m-li-anim 1s forwards;
+    -o-animation: m-li-anim 1s forwards;
+    animation: m-li-anim 1s forwards;
+    opacity: 0;
+}
+
+.menu li a {
+    transform: all 0.2s;     /* время выполнения */
+    transform: scale(1);     /* увелечение размера */
+    display: inline-block;
+    color: white;
+}
+.menu li a:visited {         /* первоначальное значение */
+    color: white;
+}
+.menu li a:hover {           /* значение при наведении */
+    color: #cf7600;
+}
+.menu li a:active {          /* значение при активации*/
+    transform: scale(1.05);
+}
+.menu li:nth-child(1) {
+    animation-delay: 1.3s;
+}
+.menu li:nth-child(2) {
+    animation-delay: 1.6s;
+}
+.menu li:nth-child(3) {
+    animation-delay: 1.9s;
+}
+.menu li:nth-child(4) {
+    animation-delay: 2.2s;
+}
+.menu li:nth-child(5) {
+    animation-delay: 2.5s;
+}
+.menu li:nth-child(6) {
+    animation-delay: 2.8s;
+}
+
+@keyframes ab-anim{
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+@keyframes m-li-anim{
+    from {
+        margin-top: -50px;
+        opacity: 0;
+    }
+    to {
+        margin-top: 0;
+        opacity: 1;
+    }
+}
+

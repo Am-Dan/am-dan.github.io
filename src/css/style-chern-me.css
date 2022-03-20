@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+}
+.ame {
+    font-size: 22px;
+    color: #263244;
+    margin: 40px;
+    text-transform: uppercase;
+}
+
+
+.block-me {
+    margin: 110px;
+    text-align: center;
+}
+.phBm {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 20px;
+    filter: grayscale(100%);
+}
+.pBm {
+    font-size: 12px;
+    color: #3f495a;
+    margin: 20px 30%;
+    text-align: justify;
+}
+.buBm {
+    border: 2px solid #6f707e;
+    border-radius: 5px;
+    background: none;
+    padding: 5px;
+    color: #6f707e;
+}

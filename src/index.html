@@ -7,27 +7,42 @@
         <link rel="stylesheet" href="css/style.css">
     </head>
     <body>
+        <div class="block-loader">
+            <div class="loader-page">
+                <div class="rows">
+                    <div class="loader-item item-1"></div>
+                    <div class="loader-item item-3"></div>
+                </div>
+                <div class="rows">
+                    <div class="loader-item item-2"></div>
+                    <div class="loader-item item-4"></div>
+                </div>
+            </div>
+            <div class="text-loader">
+                <em>Please, waiting...</em>
+            </div>
+        </div>
+        
        
         <div class="block-header">
            <h1 class="ab">Андрей Браун</h1>
            <ul class="menu">
-               <li>Обо мне</li>
-               <li>Услуги</li>
-               <li>Кейсы</li>
-               <li>Прайс</li>
-               <li>Отзывы</li>
-               <li>Контакты</li>
+               <li><a href="#">Обо мне</a></li>
+               <li><a href="#">Услуги</a></li>
+               <li><a href="#">Кейсы</a></li>
+               <li><a href="#">Прайс</a></li>
+               <li><a href="#">Отзывы</a></li>
+               <li><a href="#">Контакты</a></li>
            </ul>
         </div> <br>
         
         
         <div class="block-s">
-            <div class="shap"><h2 class="hey">Привет<br>
-                Я Андрей Браун
-                </h2>
-                <h6 class="podtext">Фулл стек веб - разработчик и Android - разработчик</h6>
-                <button class="bt1">Обо мне</button>
-                <button class="bt1">Мои работы</button>
+            <div class="shap">
+               <h2>Привет<br> Я Андрей Браун </h2>
+               <h6>Фулл стек веб - разработчик и Android - разработчик</h6>
+               <button class="bt1"> Обо мне </button>
+               <button class="bt1"> Мои работы </button>
             </div>
         </div> <br>
         
@@ -43,14 +58,19 @@
     
        
         <div class="block-can">
-            <h3 class="ame">Что я умею</h3>
-            <img src="img/bar.png" alt="bar"> <br>
-            <ul class="can">
-                <li><img class="usl-img" src="img/nout.png" alt="pc"><h5 class="usl">Веб-дизайн </h5><p class="usl-p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore at a, blanditiis nihil.</p> </li>
-                <li><img class="usl-img" src="img/znak.png" alt="pc"><h5 class="usl">Разработка </h5><p class="usl-p">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p> </li>
-                <li><img class="usl-img" src="img/raketa.png" alt="pc"><h5 class="usl">СЕО-оптимизация</h5><p class="usl-p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo.</p> </li>
-                <li><img class="usl-img" src="img/gromofon.png" alt="pc"><h5 class="usl">Маркетинг </h5><p class="usl-p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam commodi id vero assumenda.</p> </li>
-            </ul>
+            <div class="parallax-can">
+               <div class="can-fon"></div>
+                <div class="podclass">
+                    <h3 class="ame-can">Что я умею</h3>
+                    <img src="img/bar.png" alt="bar"> <br>
+                    <ul class="can">
+                        <li><img class="usl-img" src="img/nout.png" alt="pc"><h5 class="usl">Веб-дизайн </h5><p class="usl-p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore at a, blanditiis nihil.</p> </li>
+                        <li><img class="usl-img" src="img/znak.png" alt="pc"><h5 class="usl">Разработка </h5><p class="usl-p">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p> </li>
+                        <li><img class="usl-img" src="img/raketa.png" alt="pc"><h5 class="usl">СЕО-оптимизация</h5><p class="usl-p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo.</p> </li>
+                        <li><img class="usl-img" src="img/gromofon.png" alt="pc"><h5 class="usl">Маркетинг </h5><p class="usl-p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam commodi id vero assumenda.</p> </li>
+                    </ul>
+                </div>
+            </div>
         </div> <br>
         
         
@@ -68,8 +88,8 @@
                     <h4 class="web">Website</h4>
                     <a class="web-a" href="http://www.somedomain.com">http://www.somedomain.com</a>
                 </div>
-                <h4 class="project">Название проекта</h4>
-                <p class="project-p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt asperiores, blanditiis, numquam consequuntur libero aliquid debitis, ipsam nisi dicta tempore illum possimus. Cum eligendi fuga incidunt, eaque quis minima quisquam? Necessitatibus odio soluta debitis sit mollitia perspiciatis modi, in tempore doloremque natus? Cum asperiores sed doloremque earum officia, eaque vitae nostrum, nisi. Mollitia, tenetur dolorem!</p> <br>
+                <div class="prot"></div><h4 class="project">Название проекта</h4>
+                <p class="project-p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt asperiores, blanditiis, numquam consequuntur libero aliquid debitis, ipsam nisi dicta tempore illum... <details class="more"> <summary>Подробнее</summary>Cum eligendi fuga incidunt, eaque quis minima quisquam? Necessitatibus odio soluta debitis sit mollitia perspiciatis modi, in tempore doloremque natus?</details></p> <br>
                 <button class="liveSite">Visit live site</button>
             </div>
             
@@ -111,34 +131,39 @@
     
        
         <div class="block-stat">
-            <h3 class="ame">Немного статистики</h3>
-            <img src="img/bar.png" alt="">
-            <ul class="stat-sp">
-                <li> <div class="smile">
-                    <img class="stat-img" src="img/smile.png" alt="smile">
-                    <p class="sred">120</p>
-                    <p class="sred-d">Счастливых клиентов </p>
-                </div> </li>
-                <li> <div class="skobki">
-                    <img class="stat-img" src="img/skob.png" alt="skobki">
-                    <p class="sred">4600</p>
-                    <p class="sred-d">Часов работы </p>
-                </div> </li>
-                <li> <div class="project">
-                    <img class="stat-img" src="img/galka.png" alt="galka">
-                    <p class="sred">340</p>
-                    <p class="sred-d">Проектов завершено</p>
-                </div> </li>
-                <li> <div class="kubok">
-                    <img class="stat-img" src="img/kubok.png" alt="kubok">
-                    <p class="sred">23</p>
-                    <p class="sred-d">Наград получено</p>
-                </div> </li>
-            </ul>
+            <div class="parallax-stat">
+               <div class="stat-fon"></div>
+               <div class="stat-text">
+                    <h3 class="ame-stat">Немного статистики</h3>
+                    <img src="img/bar.png" alt="">
+                    <ul class="stat-sp">
+                        <li> <div class="smile">
+                            <img class="stat-img" src="img/smile.png" alt="smile">
+                            <p class="sred">120</p>
+                            <p class="sred-d">Счастливых клиентов </p>
+                        </div> </li>
+                        <li> <div class="skobki">
+                            <img class="stat-img" src="img/skob.png" alt="skobki">
+                            <p class="sred">4600</p>
+                            <p class="sred-d">Часов работы </p>
+                        </div> </li>
+                        <li> <div class="project">
+                            <img class="stat-img" src="img/galka.png" alt="galka">
+                            <p class="sred">340</p>
+                            <p class="sred-d">Проектов завершено</p>
+                        </div> </li>
+                        <li> <div class="kubok">
+                            <img class="stat-img" src="img/kubok.png" alt="kubok">
+                            <p class="sred">23</p>
+                            <p class="sred-d">Наград получено</p>
+                        </div> </li>
+                    </ul>
+                </div>
+            </div>
         </div> <br>
     
        
-        <div class="block-ot">
+        <div class="block-otziv">
             <h3 class="ame">Отзывы</h3>
             <img class="bar" src="img/bar.png" alt="bar"> <br>
             <img class="otziv-img" src="img/michael.png" alt="face">
