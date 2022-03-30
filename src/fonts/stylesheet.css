@@ -1,0 +1,26 @@
+@font-face {
+    font-family: 'RushTurbo';
+    src: url('RushTurbo.eot');
+    src: local('Rush Turbo'), local('RushTurbo'),
+        url('RushTurbo.eot?#iefix') format('embedded-opentype'),
+        url('RushTurbo.woff2') format('woff2'),
+        url('RushTurbo.woff') format('woff'),
+        url('RushTurbo.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'RushTurbo';
+    src: url('RushTurbo_1.eot');
+    src: local('Rush Turbo'), local('RushTurbo'),
+        url('RushTurbo_1.eot?#iefix') format('embedded-opentype'),
+        url('RushTurbo_1.woff2') format('woff2'),
+        url('RushTurbo_1.woff') format('woff'),
+        url('RushTurbo_1.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
