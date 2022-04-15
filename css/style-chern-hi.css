@@ -1,0 +1,81 @@
+body {
+    font-family: RushTurbo, sans-serif;
+}
+.ame {
+    font-size: 22px;
+    color: #263244;
+    margin: 40px;
+    text-transform: uppercase;
+}
+@font-face {
+    font-family: 'RushTurbo';
+    src: url('../fonts/RushTurbo.eot');
+    src: local('Rush Turbo'), local('RushTurbo'),
+        url('../fonts/RushTurbo.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/RushTurbo.woff2') format('woff2'),
+        url('../fonts/RushTurbo.woff') format('woff'),
+        url('../fonts/RushTurbo.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+
+.block-s {
+    width: 100%;
+    height: 100%;
+    background: url(../img/boy.png) 90% 100%/auto 90% no-repeat, url(../img/fon1.png) center/cover no-repeat;
+}
+.shap {
+    text-align: center;
+    margin: 250px 0 0 280px;
+    float: left;
+    -webkit-animation: shap-anim 3s ease forwards;
+    -o-animation: shap-anim 3s ease forwards;
+    animation: shap-anim 3s ease forwards;
+    animation-delay: 3s;
+    opacity: 0;
+}
+.shap h2 {
+    font-size: 51px;
+    font-weight: bold;
+    padding: 15px;
+    color: #2c384a;
+}
+.shap h6 {
+    padding: 22px;
+    font-size: 15px;
+    color: #79818d;
+}
+.bt1 {
+    border: 2px solid #6d7682;
+    border-radius: 5px;
+    margin: 15px;
+    font-size: 15px;
+    color: #6d7682;
+    padding: 15px;
+    background: none;
+}
+
+.bt1 {
+    transition: all 0.2s;
+    transform: scale(1);
+}
+.bt1:hover {
+    background: #6d7682;
+    color: white;
+}
+.bt1:active {
+    transform: scale(1.1);
+}
+
+@keyframes shap-anim{
+    from {
+        margin-left: -300px;
+        opacity: 0;
+    }
+    to {
+        margin-left: 280px;
+        opacity: 1;
+    }
+}
